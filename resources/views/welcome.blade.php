@@ -836,6 +836,11 @@
       <h1 class="text-white">MINI SISTEMA CRUD - LARAVEL</h1>
     </div>
     <BR>
+      <div>
+        <h1 class="text-white">-----------------PRUEBA ACTUALIZACION POR GIT--------------------</h1>
+      </div>
+      <BR>
+
   </div>
   <div class="col-12">
 
