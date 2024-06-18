@@ -29,6 +29,7 @@
     <div class="col-12 mt-4">
         <table class="table table-bordered text-white">
             <tr class="text-secondary">
+                <th>ID Tarea</th>
                 <th>Tarea</th>
                 <th>Descripción</th>
                 <th>Fecha</th>
@@ -37,6 +38,7 @@
             </tr>
             @foreach ($tasks as $task)
             <tr>
+                <td class="fw-bold">{{$task->id}}</td>
                 <td class="fw-bold">{{$task->title}}</td>
                 <td>{{$task->description}}</td>
                 <td>
