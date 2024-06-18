@@ -5,24 +5,19 @@
 
   <div class="col-12">
     <div>
-      <h2 class="text-white">PAGINA WELCOME</h2>
+      {{-- <h2 class="text-white">PAGINA WELCOME</h2> --}}
   </div>
   <div>
-       <a href="{{route('welcome')}}" class="btn btn-primary">acceso a welcome</a> 
-      {{-- <a href="{{route()}}" class="btn btn-primary">acceso a welcome</a> --> --}}
-      {{-- <a href="" class="btn btn-primary">acceso a welcome</a> --}}
-
-
+       <a href="{{route('welcome')}}" class="btn btn-primary">-regresar a welcome-</a> 
   </div>
-
+          <br>
   </div>
-
     <div class="col-12">
         <div>
-            <h4 class="text-white">CRUD de Tareas</h4>
+            <h4 class="text-white">-PAGINA DE TAREAS-</h4>
         </div>
         <div>
-            <a href="{{route('tasks.create')}}" class="btn btn-primary">Crear tarea</a>
+            <a href="{{route('tasks.create')}}" class="btn btn-primary">-Crear tarea-</a>
         </div>
     </div>
     @if (Session::get('success'))

@@ -7,7 +7,7 @@
             <h2>Crear Tarea</h2>
         </div>
         <div>
-            <a href="{{route('tasks.index')}}" class="btn btn-primary">Volver</a>
+            <a href="{{route('tasks.index')}}" class="btn btn-primary">-Regresar a Tareas-</a>
         </div>
     </div>
 
@@ -28,13 +28,13 @@
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Tarea:</strong>
-                    <input type="text" name="title" class="form-control" placeholder="Tarea" >
+                    <input type="text" name="title" class="form-control" placeholder="Titulo de Tarea" >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2">
                 <div class="form-group">
                     <strong>Descripción:</strong>
-                    <textarea class="form-control" style="height:150px" name="description" placeholder="Descripción..."></textarea>
+                    <textarea class="form-control" style="height:150px" name="description" placeholder="Descripción de tarea..."></textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 mt-2">
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center mt-2">
-                <button type="submit" class="btn btn-primary">Crear</button>
+                <button type="submit" class="btn btn-primary">Crear Tarea</button>
             </div>
         </div>
     </form>

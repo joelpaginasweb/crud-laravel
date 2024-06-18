@@ -845,11 +845,11 @@
   <div class="col-12">
 
     <div>
-      <a href="{{route('tasks.index')}}" class="btn btn-primary">INDEX ACCESO</a>
+      <a href="{{route('tasks.index')}}" class="btn btn-primary">----ACCESO A TASKS--</a>
     </div>
 
     <div>
-      <a href="{{route('tasks.create')}}" class="btn btn-primary">Crear tarea ACCESO</a>
+      <a href="{{route('tasks.create')}}" class="btn btn-primary">----ACCESO A CREAR TAREA--</a>
     </div>
 
   </div>
