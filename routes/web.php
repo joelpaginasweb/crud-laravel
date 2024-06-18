@@ -16,9 +16,12 @@ use App\Http\Controllers\PruebaController;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
-});
+  return view('welcome');
+})->name('welcome');
 
 Route::resource('tasks', TaskController::class);
-Route::resource('prueba', PruebaController::class);
